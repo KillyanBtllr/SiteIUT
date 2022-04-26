@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUT Informatique</title>
+    <link rel="stylesheet" href="questionnaire.css">
+    <script src="ScriptQuestionnaire.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Image/Bannière.png" alt="Bannière IUT"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Présentation BUT</a></li>
+                <li><a href="campus.html">Campus</a></li>
+                <li><a href="questionnaire.html">Questionnaire</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <h1>Qu'est-ce que le BUT Informatique ?</h1>
+        <section>
+            <iframe name="votar" style="display:none;"></iframe>
+            <form action="faux_serveur.php" method="post" target="votar">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                  <h2 id="question">Question text</h2>
+                  <ul>
+                    <li>
+                      <input type="radio" name="answer" id="a" class="answer">
+                      <label for="a" id="a_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="b" class="answer">
+                      <label for="b" id="b_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="c" class="answer">
+                      <label for="c" id="c_text">Question</label>
+                    </li>
+          
+                    <li>
+                      <input type="radio" name="answer" id="d" class="answer">
+                      <label for="d" id="d_text">Question</label>
+                    </li>
+                  </ul>
+                </div>
+                <button id="submit">Suivant</button>
+            </div>
+        </form>
+            <script src="ScriptQuestionnaire.js"></script>
+        </section>
+    </aside>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <img src="Image/Footer.png" alt="Footer IUT" id="FooterIUT"/></a>
+            <p class="footer-links">
+                <a href="index.html">Présentation BUT</a>
+                <a href="campus.html">Campus</a>
+                <a href="questionnaire.html">Questionnaire</a>
+                <a href="contact.html">Contact</a> 
+            </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>43 boulevard du 11 Novembre 1918</span> 69622 Villeurbanne cedex</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>04 72 69 20 00</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:iut%2Ewebmaster%40univ-lyon1%2Efr">iut.webmaster@univ-lyon1.fr</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a target="_blank" href="https://www.facebook.com/IUTLyon1"><img src="Image/reseaux-footer/footer-facebook.png" alt="Logo Facebook" id="Facebook"/></a>
+                <a target="_blank" href="https://twitter.com/IUTLyon1"><img src="Image/reseaux-footer/footer-twitter.png" alt="Logo Twitter" id="Twitter"/></a>
+                <a target="_blank" href="https://www.instagram.com/iutlyon1/"><img src="Image/reseaux-footer/footer-instagram.png" alt="Logo Instagram" id="Instagram"/></a> 
+                <a target="_blank" href="https://www.youtube.com/user/IUTLYON1"><img src="Image/reseaux-footer/footer-youtube.png" alt="Logo Youtube" id="Youtube"/></a> 
+                <a target="_blank" href="https://www.linkedin.com/school/iut-lyon-1/"><img src="Image/reseaux-footer/footer-linkedin.png" alt="Logo LinkedIn" id="LinkedIn"/></a>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>
